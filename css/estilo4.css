@@ -1,0 +1,248 @@
+#fondo
+{
+	background-color: rgb(159,146,248);
+	
+}
+
+.btn {
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 22px;
+  transition: .3s;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -o-transition: .3s;
+  display: inline-block;
+}
+
+
+.blue {
+  color: #55acee;
+  border: 2px #55acee solid;
+}
+
+.blue:hover {
+  background-color: #55acee;
+  color: #fff
+}
+
+.green {
+  color: #2ecc71;
+  border: 2px #2ecc71 solid;
+}
+
+.green:hover {
+  color: #fff;
+  background-color: #2ecc71;
+}
+
+.red {
+  color: #e74c3c;
+  border: 2px #e74c3c solid;
+}
+
+.red:hover {
+  color: #fff;
+  background-color: #e74c3c;
+}
+
+.purple {
+  color: #9b59b6;
+  border: 2px #9b59b6 solid;
+}
+
+.purple:hover {
+  color: #fff;
+  background-color: #9b59b6;
+}
+
+.orange {
+  color: #e67e22;
+  border: 2px #e67e22 solid;
+}
+
+.orange:hover {
+  color: #fff;
+  background-color: #e67e22;
+}
+
+.yellow {
+  color: #f1c40f;
+  border: 2px #f1c40f solid;
+}
+
+.yellow:hover {
+  color: #fff;
+  background-color: #f1c40f;
+}
+
+.buttons {
+  padding-top: 30px;
+  text-align: center;
+}
+
+/*CODIGO PARA INDEX*/
+
+#divTopIz{
+	text-align: center;
+	--bg: #1a1e24;
+    --color: #eee;
+    --font: Montserrat, Roboto, Helvetica, Arial, sans-serif;
+    font-family: Comic Sans MS;
+    font-size: 20px;
+	width: 50%;
+	height: 200px;
+	float: left;
+	margin-bottom: 0px;
+	margin-top: 10px;
+}
+
+
+
+#divRegistrar{
+
+	margin-bottom: 10px;
+	margin-top: 10px;
+	width: 25%;
+	height: 200px;
+	float: left;
+}
+
+#divLogin{
+
+	margin-bottom: 10px;
+	margin-top: 10px;
+	width: 25%;
+	height: 200px;
+	float: right;
+}
+
+#divImagen{
+
+	text-align: center;
+	width: 50%;
+	height: 300px;
+	float: left;
+	
+}
+
+#textoPresentacion{
+	float: right;
+	width: 40%;
+}
+
+/* CODIGO PARA GAME_PAGE*/
+#div_general{
+	width: 100%;
+	height: 800px;
+	margin-top: 30px;
+	
+
+}
+#div_fonogame_text{
+
+	text-align: center;
+	--bg: #1a1e24;
+    --color: #eee;
+    --font: Montserrat, Roboto, Helvetica, Arial, sans-serif;
+    font-family: Comic Sans MS;
+    font-size: 20px;
+	width: 100%;
+	
+	
+	
+	
+	
+	margin-top: 0px;
+	padding-bottom: 0px;
+	position: relative;
+
+}
+
+#div_lateral_izquierdo{
+	margin: 1%;
+	
+	width: 24%;
+	min-width: 140px;
+	float: left;
+}
+
+#div_centro{
+	
+	margin-top: 1%;
+	height: 50%;
+	width: 45%;
+	min-width: 400px;
+	min-height: 400px;
+	float: left;
+	padding: 1%;
+	text-align: center;
+	
+	
+	
+}
+
+#div_lateral_derecho{
+	margin: 1%;
+	height: 80%;
+	width: 24%;
+	min-width: 200px;
+	text-align: center;
+	float: left;
+
+}
+.silabas{
+	height: 100%;
+	width: 30%;
+	margin: 1%;
+	float: left;
+}
+.contenedor{
+	height: 100%;
+	width: 50%;
+	float: left;
+}
+
+.estilo_imagen{
+	height:25%;
+	width:100%;
+	padding: 1%;
+	display: :inline-block;
+	position: relative;
+	
+	
+}
+.estilo_text{
+	height:10%;
+	width:20%;
+	display: :inline-block;
+	
+	
+}
+.hyphenation {
+     word-break: break-all;
+     /* Non standard for webkit */
+     word-break: break-word; */
+  
+-webkit-hyphens: auto;
+   -moz-hyphens: auto;
+    -ms-hyphens: auto;
+        hyphens: auto;
+}
+
+
+#rosa{
+	background-color: cyan;
+}
+#gato{
+	background-color: green;
+}
+#espejo{
+	background-color: orange;
+}
+#botella{
+	background-color: purple;
+}
